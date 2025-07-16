@@ -8,7 +8,7 @@ For example, you can see the result of the content of this repository at: https:
 
 
 <p align="center">
-  <img src="images/manual.jpeg" alt="Imagen de ejemplo" width="40%">
+  <img src="images/web.png" alt="Imagen de ejemplo" width="80%">
 </p>
 
 
