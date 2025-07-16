@@ -8,4 +8,5 @@ Bienvenido a tus apuntes.
    :caption: Contenidos
 
    tema1.md
+   tema2.md
    template.md 
