@@ -1,8 +1,13 @@
-# Minimal Notes Template
+# Minimal Markdown Documentation Template
 
 > **Template repository:** [https://github.com/alexusgracia/manuals](https://github.com/alexusgracia/manuals)
 
 This template allows you to create course notes using Sphinx, Markdown, and Read the Docs in the simplest way possible.
+
+<p align="center">
+  <img src="images/manual.jpeg" alt="Imagen de ejemplo" width="40%">
+</p>
+
 
 ## Structure
 
@@ -23,11 +28,20 @@ The rest of the files usually do not need to be modified to create your notes.
 
 ## How to build the documentation locally
 
-1. **Clone the repository:**
+1. **Fork this repository or create a new repository and copy the contents of this repository into yours:**
+
+   - You can fork this repository by clicking the "Fork" button on GitHub.
+   - Alternatively, create a new repository and copy all the files from this repository into your own.
 
    ```bash
+   # If you forked, clone your fork:
    git clone https://github.com/youruser/yourrepo.git
+   cd yourrepo
+
+   # Or, if you created a new repository, copy the files and push them:
+   git clone https://github.com/alexusgracia/manuals.git
    cd manuals
+   # Copy all files to your new repo directory, then push to your repository
    ```
 
 2. **Create a virtual environment (optional but recommended):**
