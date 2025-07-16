@@ -2,8 +2,6 @@
 
 > **Template repository:** [https://github.com/alexusgracia/manuals](https://github.com/alexusgracia/manuals)
 
-[![Deploy Sphinx docs to GitHub Pages](https://github.com/<user>/<repo>/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/<user>/<repo>/actions)
-
 This template allows you to create course notes using Sphinx, Markdown, and Read the Docs in the simplest way possible.
 
 ## Structure
@@ -121,7 +119,7 @@ See the [Sphinx themes documentation](https://www.sphinx-doc.org/en/master/usage
 1. Push all files to the `main` branch of your GitHub repository.
 2. Go to the **Actions** tab in your repository and make sure the "Deploy Sphinx docs to GitHub Pages" workflow runs successfully.
 3. Go to **Settings** > **Pages** in your repository.
-4. In the **Build and deployment** section, select **GitHub Actions** as the source.
+4. In the **Build and deployment** section, select **GitHub Actions** as the source. (later we'll change this)
 5. Once the workflow is complete, your documentation will be available at the URL provided by GitHub Pages (usually `https://<user>.github.io/<repo>/`).
 
 ## Where will your documentation be published?
@@ -173,6 +171,13 @@ After the first commit, you need to configure GitHub Pages to use the correct br
 Once configured, GitHub Pages will serve your documentation from the compiled files in the `gh-pages` branch.
 
 
-![Imagen de despliegue exitoso](docs/img/deploy.png)
+![Successful deployment image](images/deploy.png)
 
-Si todo funciona correctamente, deberías ver una imagen similar a la anterior en la sección de **Actions** de tu repositorio, indicando que el flujo de trabajo de despliegue se ha ejecutado con éxito. Si ves la marca de verificación verde y el mensaje de éxito, significa que la documentación se ha desplegado correctamente y estará disponible en GitHub Pages como se explicó anteriormente.
+If everything works correctly, you should see an image similar to the one above in the **Actions** section of your repository, indicating that the deployment workflow has run successfully. If you see the green check mark and the success message, it means the documentation has been deployed correctly and will be available on GitHub Pages as explained above.
+
+## Improvements
+
+If you have suggestions, corrections, or improvements for this project, feel free to open an issue or submit a pull request. I will be happy to add any modifications and improvements contributed by the community to make this repository even more useful for everyone.
+
+This template was created at CITCEA, which is a research group at UPC (Universitat Politècnica de Catalunya). If you have any questions or suggestions, feel free to contact me at alexandre.gracia[at]upc.edu
+
