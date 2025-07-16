@@ -4,6 +4,9 @@
 
 This template allows you to create course notes using Sphinx, Markdown, and Read the Docs in the simplest way possible.
 
+For example, you can see the result of the content of this repository at: https://alexusgracia.github.io/manuals
+
+
 <p align="center">
   <img src="images/manual.jpeg" alt="Imagen de ejemplo" width="40%">
 </p>

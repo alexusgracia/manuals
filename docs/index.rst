@@ -1,7 +1,7 @@
-Subject XXX
+Subject or Manual name
 =======================
 
-Welcome to subject XXX
+Welcome to subject or Manual name
 
 .. toctree::
    :maxdepth: 2

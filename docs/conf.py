@@ -2,8 +2,8 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath('.'))
 
-project = 'Apuntes de Asignatura'
-author = 'Tu Nombre'
+project = 'Manuals'
+author = 'Alexandre Gràcia i Calvo'
 release = '0.1'
 
 extensions = [
