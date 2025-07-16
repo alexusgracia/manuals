@@ -1,12 +1,11 @@
-Apuntes de Asignatura
+Subject XXX
 =======================
 
-Bienvenido a tus apuntes.
+Welcome to subject XXX
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contenidos
+   :caption: Contents
 
-   tema1.md
-   tema2.md
+   topic1.md
    template.md 
