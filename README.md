@@ -8,15 +8,15 @@ This template allows you to create course notes using Sphinx, Markdown, and Read
 
 - `requirements.txt`: required dependencies
 - `.gitignore`: ignores automatically generated files
-- `LICENSE`: content license
 - `docs/`: folder with the documentation in Markdown
   - `template.md`: template for new topics
 - `images/`: folder for images
+- `build.sh`: a script to automate the compilation
   
-## Which files should teachers edit?
+## Which files should you edit?
 
 - **docs/index.md**: This is the main index of the documentation. Here you can add the cover, introduction, and the list of topics or chapters.
-- **docs/tema1.md, docs/tema2.md, ...**: Create or edit these files for each topic, chapter, or section of the course. You can add as many Markdown files as you need, linking them from the index.
+- **docs/topic1.md, docs/topic2.md, ...**: Create or edit these files for each topic, chapter, or section of the course. You can add as many Markdown files as you need, linking them from the index.
 - **docs/conf.py**: (Optional) Only if you want to change the project title, author, or some advanced Sphinx configuration.
 
 The rest of the files usually do not need to be modified to create your notes.
@@ -26,7 +26,7 @@ The rest of the files usually do not need to be modified to create your notes.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/alexusgracia/manuals.git
+   git clone https://github.com/youruser/yourrepo.git
    cd manuals
    ```
 
