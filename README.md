@@ -123,3 +123,15 @@ See the [Sphinx themes documentation](https://www.sphinx-doc.org/en/master/usage
 3. Go to **Settings** > **Pages** in your repository.
 4. In the **Build and deployment** section, select **GitHub Actions** as the source.
 5. Once the workflow is complete, your documentation will be available at the URL provided by GitHub Pages (usually `https://<user>.github.io/<repo>/`).
+
+## Important note about workflow permissions
+
+To ensure automatic deployment to GitHub Pages works correctly, you must enable **workflow permissions**:
+
+1. Go to your repository on GitHub.
+2. Navigate to **Settings** > **Actions** > **General**.
+3. Find the **Workflow permissions** section.
+4. Select **Read and write permissions**.
+5. Click **Save**.
+
+This allows GitHub Actions to have permission to push to the `gh-pages` branch and deploy your documentation.
