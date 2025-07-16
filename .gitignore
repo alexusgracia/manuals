@@ -1,0 +1,19 @@
+# Virtual environments
+venv/
+
+# IDE configuration
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sphinx build files
+_build/ 
